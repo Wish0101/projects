@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin: -0.1%;
+    padding: 15px;
+    position: relative;
+}
+
+.line{
+    color: blue;
+    -webkit-text-stroke-width: unset;
+}
